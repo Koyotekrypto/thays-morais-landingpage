@@ -1,0 +1,31 @@
+{
+  "screenshot": {
+    "name": "projects/15320651215612586174/files/62c319024c3d45daae08f1eb1af58f03",
+    "downloadUrl": "https://lh3.googleusercontent.com/aida/AOfcidWBhJyKnoWwg6f91x4kg64qXIdOlZ2FQ8KiGBbrbGBZlGWKgnAUCfrGQKjRInOFP1obyKJpbkPMgFxYoFI_Wf7ZmFPhq-hOXXh3biQPAflJ_y4rzSajqMtoOkyCzIioAuZoOMvTZlXbkY1a4HL44j3Nx6qMaQA1dhufeDdgM4Vc_LrIETwc8SO569kWDdCQf5u4AzZD_EJ2b7uXcbpKyoQJ6psge3RhCEP1zHE__v55vKdCaNLhyvnQa_E"
+  },
+  "htmlCode": {
+    "name": "projects/15320651215612586174/files/48941923c48349e9b0bc55c6088904cb",
+    "downloadUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2U0YTQ4ZDk5YzY3NzQxZDM5NGI0YmRlMWNhYTNkNDk1EgsSBxCWx-G6uAsYAZIBJAoKcHJvamVjdF9pZBIWQhQxNTMyMDY1MTIxNTYxMjU4NjE3NA&filename=&opi=89354086",
+    "mimeType": "text/html"
+  },
+  "id": "99632eb95079473e8589c325979aa4f5",
+  "generatedBy": "edit_agent",
+  "width": "2560",
+  "height": "5438",
+  "title": "VIBE DEV™ Minimalist Tech Layout",
+  "prompt": "Title: VIBE DEV\\u2122 Final Conversion Section\nContext: Final phase execution for VIBE DEV™ v3.0 landing page focusing on lead capture and legal compliance.\nEdit request: Execute Phase 5: Final Conversion. Below the Validation Log, add a high-contrast 'INITIATE_DEPLOYMENT' CTA section. Use a large, glowing border container with a split layout: on the left, a bold headline 'READY TO SCALE?' and on the right, a simplified technical form with input fields for 'IDENTIFIER' (Name), 'UPLINK' (Email), and 'MISSION_SCOPE' (Challenge). The submit button should be a high-intensity neon purple button labeled 'EXECUTE_SEQUENCE'. In the footer area, include the VIBE DEV™ logo on the left, and a multi-column links section on the right for 'System Docs', 'Privacy Protocol', 'Operational Terms', and 'Network Status'. Include small copyright text and CNPJ/Location placeholders in a very small, dim monospace font. Maintain the deep obsidian and grid-pattern background throughout. Language: English.\nPlatform: web\nForm factor: desktop",
+  "name": "projects/15320651215612586174/screens/99632eb95079473e8589c325979aa4f5",
+  "theme": {
+    "colorMode": "DARK",
+    "font": "INTER",
+    "roundness": "ROUND_EIGHT",
+    "customColor": "#137fec",
+    "saturation": 2
+  },
+  "deviceType": "DESKTOP",
+  "screenType": "DESIGN",
+  "screenMetadata": {
+    "agentType": "PRO_AGENT",
+    "status": "COMPLETE"
+  }
+}
