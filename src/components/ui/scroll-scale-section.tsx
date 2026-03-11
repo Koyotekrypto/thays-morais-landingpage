@@ -19,9 +19,18 @@ export function ScrollScaleSection({
   const containerRef = useRef<HTMLDivElement>(null);
   const shouldReduceMotion = useReducedMotion();
   const [scrollScale, setScrollScale] = useState(startScale);
+  const [isDesktop, setIsDesktop] = useState(typeof window !== 'undefined' ? window.innerWidth >= 1024 : true);
 
   useEffect(() => {
-    if (!enableAnimations || shouldReduceMotion) return;
+    const handleResize = () => {
+      setIsDesktop(typeof window !== 'undefined' ? window.innerWidth >= 1024 : true);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  useEffect(() => {
+    if (!enableAnimations || shouldReduceMotion || !isDesktop) return;
 
     const handleScroll = () => {
       if (!containerRef.current) return;
@@ -44,30 +53,37 @@ export function ScrollScaleSection({
     handleScroll(); // Initial calculation
 
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [enableAnimations, shouldReduceMotion, startScale]);
+  }, [enableAnimations, shouldReduceMotion, startScale, isDesktop]);
 
-  const shouldAnimate = enableAnimations && !shouldReduceMotion;
+  const shouldAnimate = enableAnimations && !shouldReduceMotion && isDesktop;
 
   return (
     <div className={`relative ${className}`}>
-      {/* Scroll Container */}
-      <div
-        ref={containerRef}
-        className="relative h-[150vh] bg-white"
-      >
-        {/* Fixed Content Container */}
-        <div className="sticky top-0 w-full h-screen overflow-hidden flex items-center justify-center z-10">
-          <div
-            className="w-full will-change-transform"
-            style={{
-              transform: shouldAnimate ? `scale(${scrollScale})` : 'scale(1)',
-              transformOrigin: "center center",
-            }}
-          >
-            {children}
+      {isDesktop ? (
+        /* Desktop Scroll Container */
+        <div
+          ref={containerRef}
+          className="relative h-[150vh] bg-white"
+        >
+          {/* Fixed Content Container */}
+          <div className="sticky top-0 w-full h-screen overflow-hidden flex items-center justify-center z-10">
+            <div
+              className="w-full will-change-transform"
+              style={{
+                transform: shouldAnimate ? `scale(${scrollScale})` : 'scale(1)',
+                transformOrigin: "center center",
+              }}
+            >
+              {children}
+            </div>
           </div>
         </div>
-      </div>
+      ) : (
+        /* Mobile Normal Flow Container */
+        <div className="w-full">
+          {children}
+        </div>
+      )}
     </div>
   );
 }
