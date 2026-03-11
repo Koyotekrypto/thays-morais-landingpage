@@ -106,6 +106,22 @@
 }
 
 @layer utilities {
+  .glass {
+    @apply bg-white/70 backdrop-blur-xl border border-white/30 shadow-glass;
+  }
+  
+  .dark .glass {
+    @apply bg-slate-950/70 backdrop-blur-xl border border-white/10 shadow-glass-dark;
+  }
+
+  .card-3d {
+    @apply transition-all duration-500 ease-out shadow-3d;
+  }
+  
+  .card-3d:hover {
+    @apply shadow-3d-hover -translate-y-2;
+  }
+
   .btn-magnetic {
     @apply transition-transform overflow-hidden relative inline-flex;
     transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -117,12 +133,16 @@
   }
 
   .hover-lift {
-    @apply transition-all duration-300 ease-out;
+    @apply transition-all duration-500 ease-out;
   }
 
   .hover-lift:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.15), 0 30px 30px -15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dark .hover-lift:hover {
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5), 0 30px 30px -15px rgba(0, 0, 0, 0.3);
   }
 
   /* Thays Morais Typography */

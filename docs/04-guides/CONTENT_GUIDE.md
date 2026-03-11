@@ -1,18 +1,18 @@
 # ✍️ Guia de Conteúdo & Copywriting
 
-Nossa comunicação deve sempre soar como um híbrido entre um **Diretor de Fotografia** e um **Arquiteto de Software**.
+Nossa comunicação deve sempre soar como uma **Consultora Contábil de Alta Performance** e uma **Estrategista Financeira Pessoal**. Nada de burocracia monótona; a linguagem é de proteção, inteligência e lucro.
 
 ## 🎤 Tom de Voz
-- **Autoridade**: Sabemos o que estamos fazendo. Não pedimos permissão, entregamos resultados.
-- **Mistério & Sofisticação**: Menos é mais. Frases curtas, impacto longo.
-- **Foco Técnico**: Use termos como "Arquitetura", "Métricas", "ROI", "Ativo Digital".
+- **Autoridade e Confiança**: "Nós conhecemos as regras do jogo. Você foca em prosperar, nós protegemos seu patrimônio."
+- **Clareza e Precisão**: Nada de jargões jurídicos confusos. Traduza problemas ("Malha Fina", "Ganhos de Capital") em soluções financeiras diretas.
+- **Foco Analítico**: Use termos como "Restituição Maximizada", "Ativo Digital", "Aprovação Prioritária", "Blindagem Patrimonial".
 
-## 🏗 Estrutura de Frase do Hero
-1. **Verbo de Ação**: "Transforme", "Conecte", "Acelere".
-2. **O Objeto**: "Seu negócio", "Processos", "Dados".
-3. **A Promessa Épica (Drama Font)**: "Lucro Real", "Escala Infinita", "Engenharia de Elite".
+## 🏗 Estrutura de Frase do Hero ou CTAs
+1. **O Verbo de Resgate / Proteção**: "Recupere", "Proteja", "Garanta", "Declare".
+2. **O Objeto de Valor**: "Seu Patrimônio", "Sua Restituição", "Seus Criptoativos".
+3. **A Promessa de Paz (Drama Font)**: "Tranquilidade Absoluta", "Risco Zero", "Atendimento VIP".
 
 ## 🚫 O que evitar
-- Palavras genéricas: "Bom", "Legal", "Site barato".
-- Clichês de tecnologia: "Inovação disruptive" (use "Engenharia de Intenção" em vez disso).
-- Cores brilhantes demais sem contraste escuro.
+- Textos genéricos de contabilidade: "Fazemos o seu imposto de renda rápido".
+- Abordagem de medo desespero: Não tente amedrontar o cliente além da conta; mostre-se como a parceira estratégica que resolve e previne a dor.
+- Palavras fracas como "Tentamos", "Talvez"; prefira verbos definitivos: "Garantimos", "Aceleramos", "Blindamos".

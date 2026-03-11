@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## [1.3.0] - 2026-03-11
+### Adicionado
+- **Nova Logo Oficial**: Implementada a logo inspirada no "Leão do Imposto de Renda" na Navbar e no Footer (`leao-imposto.png`), customizando o portal para a Consultoria Thays Morais.
+- **Design System Premium**: Atualizado `tailwind.config.js` com variáveis de animação (`scale-in`, `fade-in-up`, `pulse-soft`) e texturas (sombras `glass`, `3d`, `3d-hover`).
+- **Glassmorphism Base**: Inseridas classes dinâmicas em `index.css` (`.glass`, `.glass-dark`, `.card-3d`, `.hover-lift`).
+
+### Alterado
+- **Modais e Cards 3D**: Componentes chave (`LeadFunnelModal.tsx`, `OperationalFlow.tsx`, `ServiceMatrix.tsx`) reestilizados para suportar Glassmorphism (desfoque, bordas sutis) e profundidade 3D nas interações de clique/hover.
+- **Botões Dinâmicos**: Componente de botão global refatorado para ter inner shadows 3D e efeito tátil realista (`active:scale-[0.98]`).
+
 ## [1.2.0] - 2026-03-10
 ### Adicionado
 - **Migração de Projeto Stitch**: Substituída a landing page anterior pelo projeto "Thays Morais - Site Profissional Expandido" (Stitch ID: 6226505574339480181).

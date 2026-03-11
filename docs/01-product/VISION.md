@@ -1,20 +1,20 @@
-# 🌟 Visão do Produto: Conectar para Escalar
+# 🌟 Visão do Produto: Contabilidade Estratégica e Proteção Patrimonial
 
-A **ConectaDev** não é apenas uma agência de desenvolvimento; somos um ecossistema de elite que une o impacto imersivo do Design Cinematográfico à robustez da Engenharia de Software.
+**Thays Morais - Landingpage** não é apenas um site de serviços contábeis; é um portal de posicionamento de elite projetado para capturar clientes de alto valor (High-Ticket) através de uma narrativa de autoridade incontestável.
 
 ## 🎯 Nosso Propósito
-Transformar gargalos operacionais em lucro real através de ativos digitais de alta performance.
+Transformar a burocracia do IRPF e a gestão contábil em lucro real e paz de espírito (Blindagem Patrimonial) para os clientes.
 
 ## 🏢 Posicionamento de Nicho
-Focamos em mercados que exigem alta confiança e fluxos de trabalho complexos:
-- **Clínicas Médicas**: Transformando a jornada do paciente e a gestão clínica em experiências fluidas.
-- **Restaurantes**: Otimizando o fluxo operacional e a fidelização através de tecnologia proprietária.
+Focamos em contribuintes e empresários que valorizam a segurança e o retorno financeiro:
+- **Pessoa Física (IRPF)**: Foco total em maximizar a restituição, aprovação prioritária via PIX e proteção 100% contra a Malha Fina.
+- **Profissionais Liberais e Empresários**: Estruturação de fluxo de caixa, planejamento tributário avançado e gestão contínua.
 
-## ✨ A Alma "ConectaDev"
-Nossa cultura é baseada em três pilares:
-1. **Intencionalidade**: Cada linha de código e cada pixel tem um objetivo de negócio.
-2. **Estética Cinematográfica**: Interfaces que não apenas funcionam, mas encantam e retêm o usuário.
-3. **Engenharia de Elite**: Arquiteturas escaláveis, seguras e prontas para o crescimento exponencial.
+## ✨ A Alma "Thays Morais"
+A marca comunica segurança, luxo e alta capacidade técnica:
+1. **Intencionalidade e Clareza**: Cada seção da landing page demonstra domínio sobre o processo contábil.
+2. **Estética Cinematográfica (Obsidian Elite)**: Quebra o padrão de sites contábeis comuns (brancos, azuis e genéricos) trazendo um visual "Command Center" / "Premium" em Dark Mode.
+3. **Engenharia de Conversão**: Funis de qualificação interativos (Lead Funnel via WhatsApp) focados em atrito qualificado — ou seja, filtrar os curiosos e trazer para a mentoria/consulta apenas leads que reconhecem valor.
 
 ## 👥 Persona Alvo
-Empresários e gestores que atingiram o teto de crescimento com ferramentas genéricas e buscam o "Estado da Arte" para dominar seu mercado.
+Contribuintes com múltiplas fontes de renda, investidores (cripto, bolsa, imóveis), médicos e profissionais liberais que não querem correr riscos com o leão e preferem um "Dossiê Anti-Malha Fina".

@@ -1,5 +1,5 @@
-# Design System: ConectaDev Elite
-**Project ID:** conectadev-v2-obsidian
+# Design System: Thays Morais - Obsidian Elite
+**Project ID:** thays-morais-landingpage
 
 ## 1. Visual Theme & Atmosphere
 Aesthetic is best described as "Obsidian Elite" - deeply technical, exclusive, and highly engineered. The mood is reminiscent of a high-end command center or a futuristic operating system. The generous use of deep space backgrounds anchors the design, creating a stark, high-contrast environment where neon typography and glowing modules become focal points. It screams "cinematic authority."

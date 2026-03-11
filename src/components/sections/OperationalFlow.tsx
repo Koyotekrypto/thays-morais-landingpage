@@ -70,10 +70,9 @@ export const OperationalFlow: React.FC = () => {
                             <motion.div variants={itemVariants} key={step.id} className="flex flex-col items-center text-center group cursor-pointer">
                                 {/* Step Circle */}
                                 <div className="w-16 h-16 rounded-full flex items-center justify-center mb-6 
-                                            bg-slate-900/80 backdrop-blur-md border border-gray-800 
+                                            glass-dark border border-white/10 card-3d hover-lift
                                             group-hover:bg-primary/10 group-hover:border-primary/50 
-                                            transition-all duration-500 group-hover:-translate-y-2 
-                                            shadow-inner-glow group-hover:shadow-[0_10px_30px_rgba(0,180,216,0.2)]">
+                                            transition-all duration-500">
                                     <span className="text-xl font-display font-black text-gray-500 group-hover:text-white transition-colors duration-500 group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]">{step.id}</span>
                                 </div>
 

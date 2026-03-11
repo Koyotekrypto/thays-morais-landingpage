@@ -1,6 +1,6 @@
-# 📚 ConectaDev: Central de Conhecimento
+# 📚 Thays Morais: Landing Page & Central de Conhecimento
 
-Bem-vindo à documentação oficial da ConectaDev. Este repositório de conhecimento é estruturado seguindo o framework **Diátaxis** e boas práticas de **Engenharia de Software de Elite**.
+Bem-vindo à documentação oficial da **Landing Page Thays Morais**. Este repositório de conhecimento é estruturado seguindo o framework **Diátaxis** e boas práticas de **Engenharia de Software de Elite**.
 
 ## 🗺 Navegação Rápida
 
@@ -19,7 +19,7 @@ A "Estética" e os "Componentes".
 
 ### [04. Guias (Guides)](./04-guides/CONTENT_GUIDE.md)
 O "Passo a Passo".
-- [Guia de Copywriting](./04-guides/CONTENT_GUIDE.md) - Como escrever para a ConectaDev.
+- [Guia de Copywriting](./04-guides/CONTENT_GUIDE.md) - Como escrever e adaptar copys visando alta conversão.
 
 ---
 

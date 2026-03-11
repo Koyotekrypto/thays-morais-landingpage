@@ -38,7 +38,7 @@ export const ServiceMatrix: React.FC = () => {
                             className="h-full"
                         >
                             <Card
-                                className="glass-panel group border-primary/5 hover:border-primary/40 relative overflow-hidden flex flex-col h-full bg-card/40 backdrop-blur-2xl rounded-[2rem] transition-all duration-300 shadow-lg hover:shadow-[0_0_30px_rgba(0,180,216,0.15)]"
+                                className="glass-dark card-3d group border-white/10 hover:border-primary/40 relative overflow-hidden flex flex-col h-full rounded-[2rem] transition-all duration-300 hover-lift"
                             >
                                 {/* Hover background effect */}
                                 <div className="absolute top-0 right-0 p-32 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 group-hover:bg-primary/20 transition-colors duration-500"></div>

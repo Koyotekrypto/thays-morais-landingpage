@@ -1,6 +1,6 @@
 # 🎨 Design System: Cinematic Obsidian
 
-A estética da ConectaDev é definida pelo equilíbrio entre a escuridão profunda (Dark mode) e o brilho tecnológico (Neon Glow).
+A estética da **Landing Page Thays Morais** é definida pelo equilíbrio entre a escuridão profunda (Dark mode) e o brilho tecnológico e confiabilidade (Neon Glow / Azul Contabilidade Moderna).
 
 ## 🌑 Paleta de Cores (Tokens)
 - **Background**: `bg-slate-950` (O preto absoluto do Obsidian).
