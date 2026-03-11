@@ -11,7 +11,7 @@
 - Adição de `ScrollScaleSection` envolvendo as áreas de `Hero` principal e do acordeão, executando um efeito de scale in visual atrelado à barra de rolagem (sem quebrar a estrutura existente de copy).
 
 ### Changed
-- Evolução do copywriting na seção "Valor Além dos Números" para alinhar com as dores reais do cliente pessoa física focando em "Restituição Maximizada", "Blindagem Anti-Malha Fina" e "Agilidade no Recebimento".
+- Evolução do copywriting nas seções "Valor Além dos Números" e "Metodologia" para alinhar com as dores e a jornada real do cliente pessoa física (PF), focando em "Restituição Maximizada", "Blindagem Anti-Malha Fina", "Agilidade no Recebimento" e clareza no processo do IRPF.
 - Cards na secção "Experiência" renderizam com classes utilitárias `.card-3d` e `.hover-lift` para dar feedback tátil e melhorar a imersão (Depth UI).
 - Extração completa de dados fixos (mockados) de dentro do `App.tsx` para um novo arquivo centralizado `src/data/content.ts` para facilitar manutenção.
 - Remoção real de componentes não utilizados que estavam presentes na árvore principal (`Footer.tsx` e `Navbar.tsx` internos). Os originais incorporados no `App.tsx` receberam refinamento de IDs e remoção de links mortos (hashtag "#").

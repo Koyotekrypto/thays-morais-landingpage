@@ -19,23 +19,23 @@ export const contentData = {
     methodology: [
         {
             step: '01',
-            title: 'Diagnóstico',
-            desc: 'Análise detalhada da situação fiscal e contábil atual da empresa.'
+            title: 'Mapeamento & Diagnóstico',
+            desc: 'Levantamento minucioso do seu histórico financeiro, evolução patrimonial e cruzamento prévio de notas para encontrar todas as oportunidades legais de dedução.'
         },
         {
             step: '02',
-            title: 'Estratégia',
-            desc: 'Desenvolvimento de um plano personalizado de otimização e organização.'
+            title: 'Estratégia de Proteção',
+            desc: 'Desenvolvimento de um plano de ação para blindar sua declaração contra a Malha Fina, validando rigorosamente recibos médicos, despesas e informes de rendimento.'
         },
         {
             step: '03',
-            title: 'Implementação',
-            desc: 'Execução das rotinas contábeis com integração de sistemas e processos.'
+            title: 'Execução & Transmissão',
+            desc: 'Preenchimento técnico e envio estratégico utilizando a declaração pré-preenchida e a chave PIX, garantindo prioridade máxima no lote de restituição.'
         },
         {
             step: '04',
-            title: 'Monitoramento',
-            desc: 'Acompanhamento contínuo e relatórios de desempenho mensal.'
+            title: 'Acompanhamento',
+            desc: 'Monitoramento contínuo em tempo real do processamento da sua declaração junto à base da Receita Federal até o depósito efetivo na sua conta.'
         }
     ],
     authorityMetrics: [

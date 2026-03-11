@@ -223,9 +223,9 @@ const App: React.FC = () => {
                         <div className="flex flex-col lg:flex-row justify-between items-start gap-12 mb-20">
                             <div className="max-w-xl">
                                 <h2 className="text-sm font-bold uppercase tracking-widest text-gray-400 mb-4">Metodologia</h2>
-                                <h3 className="text-display text-black font-extrabold">Como Funcionamos.</h3>
+                                <h3 className="text-display text-black font-extrabold">Nosso Processo de Trabalho.</h3>
                             </div>
-                            <p className="text-gray-500 text-lg max-w-md">Um processo estruturado para garantir que sua empresa receba o suporte necessário em cada fase da jornada contábil.</p>
+                            <p className="text-gray-500 text-lg max-w-md">Um modelo rigoroso e transparente desenhado para garantir precisão absoluta, segurança fiscal e a máxima restituição do seu Imposto de Renda.</p>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                             {contentData.methodology.map((item) => (
