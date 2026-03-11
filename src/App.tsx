@@ -35,9 +35,9 @@ const App: React.FC = () => {
                 {/* BEGIN: Navigation */}
                 <nav className="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
                     <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-                        <div className="flex items-center gap-2">
-                            <div className="w-8 h-8 bg-black flex items-center justify-center text-white font-bold text-xs">TM</div>
-                            <span className="font-bold text-lg tracking-tight uppercase">Thays Morais</span>
+                        <div className="flex items-center gap-3">
+                            <img src="/assets/logo-leao.jpg" alt="Logo Leão Thays Morais" className="h-12 w-auto object-contain" />
+                            <span className="font-bold text-xl tracking-tight uppercase">Thays Morais</span>
                         </div>
                         <div className="hidden md:flex items-center gap-12 text-sm font-medium uppercase tracking-widest">
                             <a className="hover:text-gray-500 transition-colors" href="#about">Sobre</a>
@@ -874,9 +874,9 @@ const App: React.FC = () => {
                 {/* BEGIN: Footer */}
                 <footer className="py-12 border-t border-gray-100 text-black">
                     <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
-                        <div className="flex items-center gap-2">
-                            <div className="w-6 h-6 bg-black flex items-center justify-center text-white font-bold text-[10px]">TM</div>
-                            <span className="font-bold text-sm tracking-tight uppercase">Thays Morais</span>
+                        <div className="flex items-center gap-3">
+                            <img src="/assets/logo-leao.jpg" alt="Logo Leão Thays Morais" className="h-10 w-auto object-contain grayscale opacity-80" />
+                            <span className="font-bold text-base tracking-tight uppercase">Thays Morais</span>
                         </div>
                         <p className="text-xs text-gray-400 uppercase tracking-widest">
                             © 2026 Thays Morais - Todos os direitos reservados. Analista Contábil.
