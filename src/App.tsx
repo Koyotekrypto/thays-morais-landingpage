@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ThemeProvider } from "@/components/theme-provider"
 import { HeroImageAccordion } from "@/components/ui/interactive-image-accordion"
 import { LeadFunnelModal } from "@/components/sections/LeadFunnelModal"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Linkedin, Instagram } from "lucide-react"
 import { AnimatePresence } from "framer-motion"
 
 // Countdown hook – target: 29 May 2026
@@ -197,23 +197,23 @@ const App: React.FC = () => {
                     <div className="max-w-7xl mx-auto px-6">
                         <div className="mb-16">
                             <h2 className="text-sm font-bold uppercase tracking-widest text-gray-400 mb-4">Valor Além dos Números</h2>
-                            <h3 className="text-display text-black font-extrabold">Contabilidade como motor de crescimento.</h3>
+                            <h3 className="text-display text-black font-extrabold">Sua declaração executada de forma inteligente.</h3>
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                             <div className="space-y-6">
                                 <div className="w-12 h-12 bg-black flex items-center justify-center text-white font-bold">01</div>
-                                <h4 className="text-2xl font-bold text-black">Otimização Tributária</h4>
-                                <p className="text-gray-500 leading-relaxed">Redução legal da carga tributária através de análises profundas de regimes fiscais e aproveitamento de créditos.</p>
+                                <h4 className="text-2xl font-bold text-black">Restituição Maximizada</h4>
+                                <p className="text-gray-500 leading-relaxed">Análise minuciosa de todas as suas despesas dedutíveis. O objetivo final é um só: garantir que você receba de volta cada centavo que é seu por direito, usando a lei estritamente ao seu favor.</p>
                             </div>
                             <div className="space-y-6">
                                 <div className="w-12 h-12 bg-black flex items-center justify-center text-white font-bold">02</div>
-                                <h4 className="text-2xl font-bold text-black">Conformidade Total</h4>
-                                <p className="text-gray-500 leading-relaxed">Segurança absoluta na entrega de obrigações acessórias (ECD, ECF, DCTF) eliminando riscos de multas e autuações.</p>
+                                <h4 className="text-2xl font-bold text-black">Blindagem Anti-Malha Fina</h4>
+                                <p className="text-gray-500 leading-relaxed">Cruzamento preventivo de informações (notas fiscais, médicos, bancos) com a base da Receita Federal antes do envio oficial. Eliminamos qualquer divergência. Erro zero, risco zero.</p>
                             </div>
                             <div className="space-y-6">
                                 <div className="w-12 h-12 bg-black flex items-center justify-center text-white font-bold">03</div>
-                                <h4 className="text-2xl font-bold text-black">Estratégia de Gestão</h4>
-                                <p className="text-gray-500 leading-relaxed">Transformação de dados brutos em relatórios gerenciais que apoiam decisões críticas e expansão do negócio.</p>
+                                <h4 className="text-2xl font-bold text-black">Agilidade no Recebimento</h4>
+                                <p className="text-gray-500 leading-relaxed">Estruturação pontual da declaração pré-preenchida aliada à configuração imediata da Chave PIX, assegurando estrategicamente que sua restituição saia logo nos primeiros lotes pagadores.</p>
                             </div>
                         </div>
                     </div>
@@ -255,23 +255,68 @@ const App: React.FC = () => {
                 </section>
 
                 {/* BEGIN: About Section */}
-                <section className="section-padding text-black" id="about">
-                    <div className="max-w-7xl mx-auto px-6">
-                        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
-                            <div className="lg:col-span-4">
-                                <h2 className="text-sm font-bold uppercase tracking-widest text-gray-400">Sobre Mim</h2>
+                <section className="section-padding bg-zinc-50 text-black relative mx-4 md:mx-0 my-12 md:my-0 rounded-2xl md:rounded-none overflow-hidden" id="about">
+                    <div className="max-w-7xl mx-auto px-6 relative z-10">
+                        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-12">
+                            {/* Left: Professional Card */}
+                            <div className="lg:col-span-4 mb-10 lg:mb-0">
+                                <div className="sticky top-32 p-1 border border-zinc-200 bg-white shadow-xl flex flex-col items-center hover:shadow-2xl hover:border-black transition-all duration-500 hover:-translate-y-1">
+                                    <div className="w-full aspect-square bg-zinc-100 overflow-hidden relative">
+                                        <img src="/assets/thays-dossie.jpg" alt="Thays Morais Profile" className="w-full h-full object-cover object-top grayscale hover:grayscale-0 transition-all duration-700" />
+                                        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end justify-center pb-6">
+                                            <span className="text-white font-bold tracking-widest uppercase text-xs">Thays Morais</span>
+                                        </div>
+                                    </div>
+                                    <div className="w-full p-8 text-center flex flex-col items-center">
+                                        <h3 className="text-lg font-black uppercase tracking-tight text-black mb-1">Analista Contábil</h3>
+                                        <p className="text-xs text-zinc-500 font-bold tracking-widest uppercase mb-6">CRC/GO Ativo • Goiânia/GO</p>
+                                        <div className="flex items-center justify-center gap-4 w-full">
+                                            <a href="#" className="w-10 h-10 border border-zinc-200 flex items-center justify-center text-zinc-600 hover:bg-black hover:text-white transition-all hover:scale-110">
+                                                <Linkedin size={18} />
+                                            </a>
+                                            <a href="#" className="w-10 h-10 border border-zinc-200 flex items-center justify-center text-zinc-600 hover:bg-black hover:text-white transition-all hover:scale-110">
+                                                <Instagram size={18} />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="lg:col-span-8">
-                                <p className="text-3xl md:text-4xl font-medium leading-tight mb-12">
-                                    Analista Contábil com sólida experiência em rotinas fiscais e contábeis. Especialista em entrega de declarações acessórias complexas como ECD e ECF.
-                                </p>
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-gray-600 leading-relaxed">
+                            
+                            {/* Right: Bio and Metrics */}
+                            <div className="lg:col-span-8 flex flex-col justify-center py-10 md:py-0">
+                                <span className="block text-xs font-bold uppercase tracking-widest text-zinc-400 mb-6 border-b border-zinc-200 w-max pb-2">O Dossiê Profissional</span>
+                                <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-none mb-10 text-black tracking-tight drop-shadow-sm">
+                                    Experiência que transforma números em <span className="text-zinc-400">segurança e estratégia.</span>
+                                </h2>
+                                
+                                <div className="space-y-6 text-zinc-600 text-lg leading-relaxed mb-12">
                                     <p>
-                                        Meu foco é entregar resultados precisos e promover uma organização financeira estratégica que impulsione o crescimento sustentável de cada cliente. Com domínio profundo das legislações vigentes, garanto segurança jurídica e eficiência para o seu negócio.
+                                        Sou uma <strong className="text-black">Analista Contábil</strong> com sólida vivência em rotinas fiscais e contábeis de alta complexidade. Meu propósito é ir além do cumprimento das obrigações: eu atuo para garantir <strong className="text-black">conformidade estrutural</strong> e proteção jurídica total para o patrimônio de cada cliente.
                                     </p>
                                     <p>
-                                        Acredito que a contabilidade vai além dos números; é a base para a tomada de decisões inteligentes. Trabalho lado a lado com gestores para transformar dados em inteligência de mercado.
+                                        Com profundo domínio na entrega de declarações acessórias como ECD e ECF, e uma visão clínica da legislação vigente, transformo dados brutos em inteligência. Proporciono o alicerce sólido que gestores e empreendedores precisam para tomar decisões de impacto e alavancar seus negócios de forma inabalável.
                                     </p>
+                                </div>
+
+                                {/* Authority Metrics */}
+                                <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-10 border-t border-zinc-200">
+                                    <div className="flex flex-col group cursor-default">
+                                        <span className="text-5xl font-black text-black leading-none mb-3 group-hover:scale-110 transform origin-left transition-transform">+7</span>
+                                        <span className="text-xs font-bold uppercase tracking-[0.2em] text-zinc-500">Anos de<br/>Experiência</span>
+                                    </div>
+                                    <div className="flex flex-col group cursor-default">
+                                        <span className="text-5xl font-black text-black leading-none mb-3 group-hover:scale-110 transform origin-left transition-transform">100%</span>
+                                        <span className="text-xs font-bold uppercase tracking-[0.2em] text-zinc-500">Foco em<br/>Conformidade</span>
+                                    </div>
+                                    <div className="flex flex-col group cursor-default">
+                                        <span className="text-5xl md:text-5xl font-black text-black leading-none mb-3 group-hover:scale-110 transform origin-left transition-transform">+5.000</span>
+                                        <span className="text-xs font-bold uppercase tracking-[0.2em] text-zinc-500">Declarações<br/>Bem-Sucedidas</span>
+                                    </div>
+                                </div>
+
+                                {/* Signature */}
+                                <div className="mt-12 md:mt-16 text-left pt-6">
+                                    <span className="font-drama text-5xl md:text-6xl text-zinc-300 mb-2 block -ml-2 select-none pointer-events-none">Thays Morais</span>
                                 </div>
                             </div>
                         </div>
@@ -279,72 +324,75 @@ const App: React.FC = () => {
                 </section>
 
                 {/* BEGIN: Testimonials/Quotes */}
-                <section className="section-padding bg-black text-white overflow-hidden relative">
-                    <div className="absolute top-0 right-0 w-1/2 h-full opacity-10 dot-grid"></div>
-                    <div className="max-w-7xl mx-auto px-6 relative z-10">
-                        <div className="max-w-4xl">
-                            <svg className="w-16 h-16 text-zinc-700 mb-8" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C19.5693 16 20.017 15.5523 20.017 15V9C20.017 8.44772 19.5693 8 19.017 8H16.017C14.9124 8 14.017 7.10457 14.017 6V3L21.017 3V15C21.017 18.3137 18.3307 21 15.017 21H14.017ZM3 21L3 18C3 16.8954 3.89543 16 5 16H8C8.55228 16 9 15.5523 9 15V9C9 8.44772 8.55228 8 8 8H5C3.89543 8 3 7.10457 3 6V3L10 3V15C10 18.3137 7.31371 21 4 21H3Z"></path></svg>
-                            <blockquote className="text-3xl md:text-5xl font-medium leading-tight mb-12">
-                                "Contabilidade não é apenas sobre o que já aconteceu, mas sobre planejar o que ainda está por vir. Nosso compromisso é com a transparência e a inteligência estratégica."
-                            </blockquote>
-                            <div className="flex items-center gap-4">
-                                <div className="w-12 h-px bg-zinc-500"></div>
-                                <p className="text-sm font-bold uppercase tracking-widest text-zinc-400">Missão & Valores Profissionais</p>
-                            </div>
+                <section className="py-16 md:py-32 bg-black text-white overflow-hidden relative border-y border-zinc-900 group">
+                    <div className="absolute inset-0 bg-gradient-to-br from-zinc-900/50 to-black z-0"></div>
+                    <div className="absolute top-0 right-0 w-3/4 h-full opacity-[0.03] bg-[radial-gradient(circle_at_center,_white_1px,_transparent_1px)] bg-[size:24px_24px] z-0"></div>
+                    <div className="absolute -top-40 -right-40 w-96 h-96 bg-zinc-800 rounded-full mix-blend-screen filter blur-[100px] opacity-30 group-hover:opacity-50 transition-opacity duration-1000"></div>
+                    
+                    <div className="max-w-7xl mx-auto px-6 relative z-10 flex flex-col items-center text-center">
+                        <svg className="w-12 h-12 md:w-16 md:h-16 text-zinc-800 mb-10" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C19.5693 16 20.017 15.5523 20.017 15V9C20.017 8.44772 19.5693 8 19.017 8H16.017C14.9124 8 14.017 7.10457 14.017 6V3L21.017 3V15C21.017 18.3137 18.3307 21 15.017 21H14.017ZM3 21L3 18C3 16.8954 3.89543 16 5 16H8C8.55228 16 9 15.5523 9 15V9C9 8.44772 8.55228 8 8 8H5C3.89543 8 3 7.10457 3 6V3L10 3V15C10 18.3137 7.31371 21 4 21H3Z"></path></svg>
+                        <blockquote className="text-3xl md:text-5xl lg:text-6xl font-black leading-tight mb-12 max-w-5xl tracking-tight text-white/90 drop-shadow-2xl">
+                            "A contabilidade transcende o passado; <span className="text-zinc-500">ela é a bússola para planejar o seu futuro.</span> Meu compromisso é alinhar transparência à inteligência estratégica."
+                        </blockquote>
+                        <div className="flex items-center gap-6">
+                            <div className="w-16 h-px bg-zinc-700"></div>
+                            <p className="text-xs font-black uppercase tracking-[0.3em] text-zinc-400">O Manifesto</p>
+                            <div className="w-16 h-px bg-zinc-700"></div>
                         </div>
                     </div>
                 </section>
 
                 {/* BEGIN: Experience Section */}
-                <section className="section-padding text-black" id="experience">
+                <section className="section-padding text-black bg-white" id="experience">
                     <div className="max-w-7xl mx-auto px-6">
-                        <div className="mb-20">
-                            <h2 className="text-huge font-extrabold tracking-tighter">Trajetória.</h2>
+                        <div className="mb-16 flex flex-col items-start gap-4">
+                            <span className="block text-xs font-bold uppercase tracking-widest text-zinc-400 mb-2 border-b border-zinc-200 pb-2">Experiência Profissional</span>
+                            <h2 className="text-5xl md:text-7xl font-extrabold tracking-tighter text-black leading-none drop-shadow-sm">A Jornada.</h2>
                         </div>
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border-t border-l border-black">
-                            <div className="p-10 border-r border-b border-black hover-reveal flex flex-col justify-between min-h-[400px]">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
+                            {/* Card 1 */}
+                            <div className="card-3d hover-lift p-10 bg-white border border-zinc-200 flex flex-col justify-between shadow-xl min-h-[440px] cursor-default group">
                                 <div>
-                                    <span className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-8 block">2019 — Atual</span>
-                                    <h3 className="text-3xl font-bold mb-4 leading-none text-black">Master Contabilidade</h3>
-                                    <p className="text-gray-500 font-medium mb-6 uppercase text-xs tracking-widest">Analista Contábil Pleno</p>
-                                    <p className="text-sm text-gray-600 mb-6 leading-relaxed">Responsável pela integridade das demonstrações financeiras e planejamento estratégico, assegurando compliance e suportando a alta gestão corporativa.</p>
-                                    <ul className="space-y-3 text-sm text-gray-600 font-medium">
-                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 bg-black mt-1.5 flex-shrink-0"></span><span>Fechamento rigoroso de DRE e Balanços Patrimoniais.</span></li>
-                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 bg-black mt-1.5 flex-shrink-0"></span><span>Gestão, auditoria e entrega ágil de ECD e ECF complexas.</span></li>
-                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 bg-black mt-1.5 flex-shrink-0"></span><span>Conciliação avançada de contas, eliminando riscos e inconsistências.</span></li>
+                                    <span className="text-[10px] font-black uppercase tracking-widest text-white bg-black px-3 py-1 mb-8 inline-block shadow-sm">2019 — Atual</span>
+                                    <h3 className="text-3xl font-black mb-2 leading-none text-black tracking-tight group-hover:text-zinc-700 transition-colors">Master Contabilidade</h3>
+                                    <p className="text-zinc-500 font-bold mb-6 uppercase text-xs tracking-widest border-b border-zinc-100 pb-4">Analista Contábil Pleno</p>
+                                    <p className="text-sm text-zinc-600 mb-6 leading-relaxed">Responsável pela integridade das demonstrações financeiras e planejamento estratégico, assegurando compliance e suportando a alta gestão corporativa.</p>
+                                    <ul className="space-y-4 text-sm text-zinc-700 font-medium">
+                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 bg-black mt-1.5 flex-shrink-0 shadow-sm"></span><span>Fechamento rigoroso de DRE e Balanços Patrimoniais.</span></li>
+                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 bg-black mt-1.5 flex-shrink-0 shadow-sm"></span><span>Gestão, auditoria e entrega ágil de ECD e ECF completas.</span></li>
+                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 bg-black mt-1.5 flex-shrink-0 shadow-sm"></span><span>Conciliação avançada de contas, eliminando inconsistências.</span></li>
                                     </ul>
-                                </div>
-                                <div className="mt-12">
-                                    <span className="text-[10px] font-black uppercase bg-black text-white px-2 py-1">Ativo</span>
                                 </div>
                             </div>
-                            <div className="p-10 border-r border-b border-black hover-reveal flex flex-col justify-between min-h-[400px]">
+                            
+                            {/* Card 2 */}
+                            <div className="card-3d hover-lift p-10 bg-white border border-zinc-200 flex flex-col justify-between shadow-xl min-h-[440px] cursor-default group">
                                 <div>
-                                    <span className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-8 block">2019 — 2021</span>
-                                    <h3 className="text-3xl font-bold mb-4 leading-none text-black">Havai Contabilidade</h3>
-                                    <p className="text-gray-500 font-medium mb-6 uppercase text-xs tracking-widest">Analista Fiscal</p>
-                                    <p className="text-sm text-gray-600 mb-6 leading-relaxed">Atuação incisiva na gestão e mitigação de riscos tributários, garantindo correta apuração de impostos e a prevenção proativa de passivos fiscais.</p>
-                                    <ul className="space-y-3 text-sm text-gray-600 font-medium">
-                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 bg-black mt-1.5 flex-shrink-0"></span><span>Apuração precisa de tributos de Simples Nacional e Lucro Presumido.</span></li>
-                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 bg-black mt-1.5 flex-shrink-0"></span><span>Revisão técnica de notas fiscais e parametrização avançada de CFOPs/CSTs.</span></li>
-                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 bg-black mt-1.5 flex-shrink-0"></span><span>Entrega assertiva de declarações estaduais e cruzamento de informações gerenciais.</span></li>
+                                    <span className="text-[10px] font-black uppercase tracking-widest text-zinc-600 bg-zinc-100 border border-zinc-200 px-3 py-1 mb-8 inline-block">2019 — 2021</span>
+                                    <h3 className="text-3xl font-black mb-2 leading-none text-black tracking-tight group-hover:text-zinc-700 transition-colors">Havai Contabilidade</h3>
+                                    <p className="text-zinc-500 font-bold mb-6 uppercase text-xs tracking-widest border-b border-zinc-100 pb-4">Analista Fiscal</p>
+                                    <p className="text-sm text-zinc-600 mb-6 leading-relaxed">Atuação incisiva na gestão e mitigação de riscos tributários, garantindo correta apuração de impostos e a prevenção proativa de passivos fiscais.</p>
+                                    <ul className="space-y-4 text-sm text-zinc-700 font-medium">
+                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 outline outline-1 outline-black mt-1.5 flex-shrink-0"></span><span>Apuração precisa de tributos de Simples Nacional e Lucro Presumido.</span></li>
+                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 outline outline-1 outline-black mt-1.5 flex-shrink-0"></span><span>Revisão técnica de notas fiscais e parametrização avançada.</span></li>
+                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 outline outline-1 outline-black mt-1.5 flex-shrink-0"></span><span>Entrega assertiva de declarações estaduais e cruzamentos.</span></li>
                                     </ul>
                                 </div>
-                                <div className="mt-12 text-black"><svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"></path></svg></div>
                             </div>
-                            <div className="p-10 border-r border-b border-black hover-reveal flex flex-col justify-between min-h-[400px]">
+                            
+                            {/* Card 3 */}
+                            <div className="card-3d hover-lift p-10 bg-zinc-50 border border-zinc-200 flex flex-col justify-between shadow-xl min-h-[440px] cursor-default group">
                                 <div>
-                                    <span className="text-xs font-bold uppercase tracking-widest text-gray-400 mb-8 block">2017 — 2019</span>
-                                    <h3 className="text-3xl font-bold mb-4 leading-none text-black">Ricardo Contabilidade</h3>
-                                    <p className="text-gray-500 font-medium mb-6 uppercase text-xs tracking-widest">Auxiliar Contábil</p>
-                                    <p className="text-sm text-gray-600 mb-6 leading-relaxed">Construção de base estrutural em contabilidade com forte visão analítica, suportando ativamente e tecnicamente o ciclo de fechamento mensal interno e externo.</p>
-                                    <ul className="space-y-3 text-sm text-gray-600 font-medium">
-                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 bg-black mt-1.5 flex-shrink-0"></span><span>Classificação e conciliação criteriosa de contas ativas, passivas e de resultado.</span></li>
-                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 bg-black mt-1.5 flex-shrink-0"></span><span>Controle de fluxo de caixa operacional e elaboração de balancetes de verificação diários.</span></li>
-                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 bg-black mt-1.5 flex-shrink-0"></span><span>Resolução autônoma de pendências e interface direta técnica e financeira com os responsáveis.</span></li>
+                                    <span className="text-[10px] font-black uppercase tracking-widest text-zinc-500 bg-zinc-200 px-3 py-1 mb-8 inline-block">2017 — 2019</span>
+                                    <h3 className="text-3xl font-black mb-2 leading-none text-zinc-800 tracking-tight group-hover:text-black transition-colors">Ricardo Contabilidade</h3>
+                                    <p className="text-zinc-500 font-bold mb-6 uppercase text-xs tracking-widest border-b border-zinc-200 pb-4">Auxiliar Contábil</p>
+                                    <p className="text-sm text-zinc-600 mb-6 leading-relaxed">Construção de base estrutural em contabilidade com forte visão analítica, suportando ativamente o ciclo de fechamento mensal.</p>
+                                    <ul className="space-y-4 text-sm text-zinc-700 font-medium opacity-90">
+                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 bg-zinc-300 mt-1.5 flex-shrink-0"></span><span>Classificação e conciliação criteriosa de contas ativas e passivas.</span></li>
+                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 bg-zinc-300 mt-1.5 flex-shrink-0"></span><span>Controle de fluxo de caixa e emissão de balancetes.</span></li>
+                                        <li className="flex items-start gap-3"><span className="w-1.5 h-1.5 bg-zinc-300 mt-1.5 flex-shrink-0"></span><span>Resolução autônoma de pendências.</span></li>
                                     </ul>
                                 </div>
-                                <div className="mt-12 text-gray-400"><span className="text-xs uppercase font-bold">Início</span></div>
                             </div>
                         </div>
                     </div>
@@ -693,11 +741,11 @@ const App: React.FC = () => {
                         <h2 className="text-4xl md:text-6xl font-extrabold mb-6 leading-none">Prazo termina em<br /><span className="text-green-400">{countdown.days} dias, {String(countdown.hours).padStart(2,'0')}h {String(countdown.minutes).padStart(2,'0')}min</span></h2>
                         <p className="text-green-200 text-xl mb-10 font-light">Quem declara cedo recebe a restituição primeiro. Não arrisque multas ou malha fina.</p>
                         <div className="flex flex-col sm:flex-row justify-center gap-4">
-                            <a href="https://wa.me/5562968896669?text=Ol%C3%A1%2C%20Thays!%20Quero%20declarar%20meu%20IRPF%202026%20antes%20do%20prazo.%20Pode%20me%20ajudar%3F" target="_blank" className="flex items-center justify-center gap-2 bg-green-500 text-black px-10 py-5 font-black uppercase tracking-widest hover:bg-green-400 transition-all text-sm">
+                            <a href="https://wa.me/5562968896669?text=Ol%C3%A1%2C%20Thays!%20Quero%20declarar%20meu%20IRPF%202026%20antes%20do%20prazo.%20Pode%20me%20ajudar%3F" target="_blank" className="flex items-center justify-center gap-2 bg-green-500 text-black px-6 py-4 md:px-10 md:py-5 font-black uppercase tracking-widest hover:bg-green-400 transition-all text-xs md:text-sm text-center">
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
                                 Falar com Thays Agora
                             </a>
-                            <a href="#ir-planos" className="flex items-center justify-center border border-green-500 text-green-400 px-10 py-5 font-bold uppercase tracking-widest hover:bg-green-500 hover:text-black transition-all text-sm">
+                            <a href="#ir-planos" className="flex items-center justify-center border border-green-500 text-green-400 px-6 py-4 md:px-10 md:py-5 font-bold uppercase tracking-widest hover:bg-green-500 hover:text-black transition-all text-xs md:text-sm text-center">
                                 Ver Planos
                             </a>
                         </div>
@@ -772,9 +820,9 @@ const App: React.FC = () => {
                     <div className="max-w-4xl mx-auto px-6">
                         <h2 className="text-display font-extrabold mb-8">Pronto para elevar o nível da sua contabilidade?</h2>
                         <p className="text-zinc-400 text-xl mb-12 font-light">Solicite um diagnóstico gratuito hoje mesmo e descubra oportunidades de economia para o seu negócio.</p>
-                        <div className="flex flex-col sm:flex-row justify-center gap-6">
-                            <a className="bg-white text-black px-12 py-6 font-bold uppercase tracking-widest hover:bg-zinc-200 transition-colors" href="#contact">Solicitar Diagnóstico</a>
-                            <a className="border border-white text-white px-12 py-6 font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all" href="https://wa.me/5562968896669?text=Ol%C3%A1%2C%20Thays!%20Gostaria%20de%20solicitar%20um%20diagn%C3%B3stico%20gratuito%20da%20minha%20situa%C3%A7%C3%A3o%20cont%C3%A1bil.%20Pode%20me%20atender%3F" target="_blank">WhatsApp Direto</a>
+                        <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
+                            <a className="bg-white text-black px-6 py-4 md:px-12 md:py-6 font-bold uppercase tracking-widest hover:bg-zinc-200 transition-colors flex items-center justify-center text-center text-xs md:text-sm" href="#contact">Solicitar Diagnóstico</a>
+                            <a className="border border-white text-white px-6 py-4 md:px-12 md:py-6 font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all flex items-center justify-center text-center text-xs md:text-sm" href="https://wa.me/5562968896669?text=Ol%C3%A1%2C%20Thays!%20Gostaria%20de%20solicitar%20um%20diagn%C3%B3stico%20gratuito%20da%20minha%20situa%C3%A7%C3%A3o%20cont%C3%A1bil.%20Pode%20me%20atender%3F" target="_blank">WhatsApp Direto</a>
                         </div>
                     </div>
                 </section>
@@ -782,7 +830,7 @@ const App: React.FC = () => {
                 {/* BEGIN: Contact Section */}
                 <section className="section-padding bg-zinc-50 border-t border-gray-100 text-black" id="contact">
                     <div className="max-w-7xl mx-auto px-6">
-                        <div className="bg-white p-12 lg:p-20 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center shadow-sm">
+                        <div className="bg-white p-8 md:p-12 lg:p-20 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center shadow-sm">
                             <div>
                                 <h2 className="text-display font-extrabold mb-8">Vamos conversar?</h2>
                                 <p className="text-gray-500 text-xl mb-12">Entre em contato para uma consultoria personalizada e descubra como podemos otimizar seu negócio.</p>
