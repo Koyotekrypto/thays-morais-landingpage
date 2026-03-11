@@ -1,7 +1,7 @@
-# PROJECT: CONECTADEV - Landingpage
+# PROJECT: Thays Morais - Landingpage
 
 ## Purpose
-Landing page for the CONECTADEV platform, focusing on showcasing services and capturing leads.
+Landing page profissional para Thays Morais (Consultoria & Analista Contábil), focada em captar leads de alto valor oferecendo serviços de otimização tributária e estratégia de gestão.
 
 ## Integrations
 - **Stitch MCP**: Connected to Antigravity for advanced agentic capabilities.

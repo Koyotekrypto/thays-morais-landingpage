@@ -124,4 +124,40 @@
     transform: translateY(-2px);
     box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.5);
   }
-}
+
+  /* Thays Morais Typography */
+  .text-huge {
+    font-size: clamp(3rem, 8vw, 6rem);
+    line-height: 1;
+    letter-spacing: -0.04em;
+  }
+  .text-display {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+  }
+  .text-step {
+    font-size: clamp(4rem, 10vw, 8rem);
+    line-height: 1;
+    opacity: 0.1;
+  }
+
+  /* Thays Morais Layout */
+  .section-padding {
+    padding-top: clamp(4rem, 10vw, 8rem);
+    padding-bottom: clamp(4rem, 10vw, 8rem);
+  }
+  .grid-border {
+    border: 1px solid #e5e5e5;
+  }
+  .hover-reveal {
+    transition: all 0.3s ease;
+  }
+  .hover-reveal:hover {
+    background-color: #f9f9f9;
+  }
+  .dot-grid {
+    background-image: radial-gradient(#e5e5e5 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+}

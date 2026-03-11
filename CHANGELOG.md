@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## [1.2.0] - 2026-03-10
+### Adicionado
+- **Migração de Projeto Stitch**: Substituída a landing page anterior pelo projeto "Thays Morais - Site Profissional Expandido" (Stitch ID: 6226505574339480181).
+- **Layout Thays Morais**: Implementada nova estrutura React em `App.tsx` com seções completas: Hero, Valores Estratégicos, Processo de Consultoria, Sobre Mim, Serviços, Insights, FAQ e Contato.
+- **Tipografia e Estilo**: Estilos e tipografia específicos integrados ao `index.css` global (`Inter` font).
+
+## [1.1.0] - 2026-03-10
+### Alterado
+- Configuração do Vite para utilizar porta dinâmica (`--port 0`) no ambiente de desenvolvimento, garantindo que o projeto sempre inicie mesmo se a porta padrão estiver ocupada.
+
 ## [2026-03-05]
 ### Adicionado
 - **Layout Obsidian Elite (Navbar & Footer)**: Refatoração premium dos componentes de navegação com animações de entrada via Framer Motion, micro-interações de hover e estética ultra-clean (fundo dinâmico e logos com brilho neon suave).

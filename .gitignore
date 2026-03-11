@@ -22,3 +22,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Tool-generated / temp files
+mcp-tools.json
+mcp-test.cjs
+screen.json
+screen-mcp-response.json
+screenshot.png
+stitch.json
+fetch-stitch.js
+install-skills.js
+build_output.log
+next-prompt.md
+GEMINI-*.txt
+GEMINI-*.md
+Logo.png.png
