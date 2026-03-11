@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
                         className="flex flex-col gap-6 lg:col-span-2"
                     >
                         <a href="#" className="flex items-center gap-3 w-fit">
-                            <img src="/assets/leao-imposto.png" alt="Thays Morais Logo Leão" className="h-10 md:h-12 w-auto object-contain drop-shadow-[0_0_10px_rgba(0,180,216,0.3)] border-none outline-none" />
+                            <img src="/assets/leao-imposto.png" alt="Logotipo da Thays Morais Consultoria Contábil" title="Thays Morais Consultoria" loading="lazy" className="h-10 md:h-12 w-auto object-contain drop-shadow-[0_0_10px_rgba(0,180,216,0.3)] border-none outline-none" />
                         </a>
                         <p className="text-lg text-muted-foreground leading-relaxed max-w-md">
                             Engenharia de software de elite para empresas que buscam liderar a nova economia digital. Não entregamos apenas código; entregamos resultados.

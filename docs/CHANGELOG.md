@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 ### Added
+- Implementação de **FAQPage Schema** no `index.html` para captura de rich snippets e melhor ranqueamento em pesquisas de voz/IA.
+- Estruturação semântica completa de headings (`H1`-`H3`) em todo o `App.tsx`, garantindo `H1` único para autoridade de página.
+- Configuração de `robots.txt` amigável para crawlers de IA (GPTBot, Claude, Perplexity) e geração de `sitemap.xml`.
+- Otimização de imagens com atributos `alt` descritivos, `title` e `loading="lazy"` para SEO e performance em componentes Hero, Authority, Footer e Navbar.
 - Seção "Sobre Mim" completamente refatorada utilizando um **Layout Assimétrico (Grid)** para apresentar um formato de dossiê profissional.
 - Cartão com Efeito **Glassmorphism** e Links dinâmicos importados do `lucide-react` para o Instagram e LinkedIn da Thays Morais.
 - Adição da barra de **Métricas de Autoridade** no perfil, enfatizando foco de conformidade (100%), tempo de experiência (+7 Anos), e volume de entregas.

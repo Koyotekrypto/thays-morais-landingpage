@@ -31,7 +31,7 @@ export const Navbar: React.FC = () => {
             `}>
                 {/* Logo */}
                 <div className="flex items-center gap-3">
-                    <img src="/assets/leao-imposto.png" alt="Thays Morais Logo Leão" className="h-6 md:h-8 lg:h-10 w-auto object-contain drop-shadow-[0_0_8px_rgba(0,180,216,0.5)] border-none outline-none" />
+                    <img src="/assets/leao-imposto.png" alt="Logotipo da Thays Morais Consultoria Contábil" title="Thays Morais Consultoria" loading="lazy" className="h-6 md:h-8 lg:h-10 w-auto object-contain drop-shadow-[0_0_8px_rgba(0,180,216,0.5)] border-none outline-none" />
                 </div>
 
                 {/* Desktop Menu */}

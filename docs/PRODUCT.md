@@ -20,4 +20,5 @@ Landing page profissional para Thays Morais (Consultoria & Analista Contábil), 
 - [x] Sprint 5: Refatoração Codebase & Clean Code (Extração de dados para `content.ts`, correção de rotas e remoção de código não utilizado em `App.tsx`).
 - [x] Sprint 5.1: Implementação Lead Funnel Modal (Fluxo interativo de 6 passos direcionando direto para o WhatsApp).
 - [x] Implement mobile-first landing page design.
-- [ ] Otimização Contínua de Conversão, Melhorias de SEO e Testes A/B.
+- [x] Sprint 6: SEO/GEO Power-up & Semantic IA (Headings H1-H3, FAQ Schema, Robots, Sitemap, Alt Tags).
+- [ ] Otimização Contínua de Conversão e Testes A/B.

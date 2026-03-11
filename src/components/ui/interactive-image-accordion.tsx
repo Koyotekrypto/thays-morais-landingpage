@@ -65,7 +65,9 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ item, isActive, onMouseEn
       {/* Background Image */}
       <img
         src={item.imageUrl}
-        alt={item.title}
+        alt={`${item.title} - ${item.subtitle}`}
+        title={item.title}
+        loading="lazy"
         className="absolute inset-0 w-full h-full object-cover transition-transform duration-700"
         style={{ transform: isActive ? 'scale(1.04)' : 'scale(1)' }}
         onError={(e) => {

@@ -16,7 +16,9 @@ export const Hero: React.FC = () => {
             >
                 <img
                     src={HERO_CONTENT.vizImage}
-                    alt="Digital Background"
+                    alt="Fundo digital abstrato representando tecnologia e inovação em serviços contábeis"
+                    title="Tecnologia Contábil Thays Morais"
+                    loading="lazy"
                     className="w-full h-full object-cover opacity-40 mix-blend-luminosity"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent"></div>

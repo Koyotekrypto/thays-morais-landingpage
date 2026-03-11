@@ -145,10 +145,10 @@ const App: React.FC = () => {
                             {/* Left — texto e CTAs */}
                             <div className="w-1/2 flex-shrink-0 flex flex-col justify-center">
                                 <span className="block text-sm font-bold uppercase tracking-widest text-gray-400 mb-6">Thays Morais · Consultoria Fiscal &amp; Societária</span>
-                                <h1 className="text-huge font-extrabold mb-6 text-black leading-none">
+                                <h2 className="text-huge font-extrabold mb-6 text-black leading-none">
                                     Regularize. Estruture.<br />
                                     <span className="text-zinc-500">Cresça com segurança.</span>
-                                </h1>
+                                </h2>
                                 <p className="text-xl text-gray-500 font-light leading-relaxed mb-10 max-w-lg">
                                     Especialista em constituição e encerramento de empresas, reestruturação contratual e negociação de débitos tributários. Conformidade total, do primeiro ao último passo.
                                 </p>
@@ -172,9 +172,9 @@ const App: React.FC = () => {
                         <div className="flex lg:hidden flex-col gap-8 pb-12">
                             <div>
                                 <span className="block text-sm font-bold uppercase tracking-widest text-gray-400 mb-4">Thays Morais · Consultoria Fiscal &amp; Societária</span>
-                                <h1 className="text-5xl font-extrabold mb-4 text-black leading-none">
+                                <h2 className="text-5xl font-extrabold mb-4 text-black leading-none">
                                     Regularize. Estruture.<br /><span className="text-zinc-500">Cresça com segurança.</span>
-                                </h1>
+                                </h2>
                                 <p className="text-lg text-gray-500 font-light leading-relaxed mb-6">
                                     Especialista em constituição, encerramento, reestruturação contratual e negociação de débitos tributários.
                                 </p>
@@ -209,7 +209,7 @@ const App: React.FC = () => {
                             {contentData.strategicValue.map((item) => (
                                 <div key={item.number} className="space-y-6">
                                     <div className="w-12 h-12 bg-black flex items-center justify-center text-white font-bold">{item.number}</div>
-                                    <h4 className="text-2xl font-bold text-black">{item.title}</h4>
+                                    <h3 className="text-2xl font-bold text-black">{item.title}</h3>
                                     <p className="text-gray-500 leading-relaxed">{item.desc}</p>
                                 </div>
                             ))}
@@ -231,7 +231,7 @@ const App: React.FC = () => {
                             {contentData.methodology.map((item) => (
                                 <div key={item.step} className="relative p-8 bg-white border border-gray-100 hover:shadow-xl transition-shadow text-black">
                                     <span className="text-step font-black absolute top-2 right-4">{item.step}</span>
-                                    <h4 className="text-xl font-bold mt-12 mb-4">{item.title}</h4>
+                                    <h3 className="text-xl font-bold mt-12 mb-4">{item.title}</h3>
                                     <p className="text-gray-500 text-sm">{item.desc}</p>
                                 </div>
                             ))}
@@ -362,7 +362,7 @@ const App: React.FC = () => {
                                     Abordagem holística para a gestão financeira, utilizando as melhores ferramentas do mercado para máxima precisão.
                                 </p>
                                 <div className="p-8 border border-zinc-800 bg-zinc-900/50">
-                                    <h4 className="text-xs font-bold uppercase tracking-widest text-zinc-500 mb-6">Tech Stack & Software</h4>
+                                    <h3 className="text-xs font-bold uppercase tracking-widest text-zinc-500 mb-6">Tech Stack & Software</h3>
                                     <div className="grid grid-cols-2 gap-y-4">
                                         {contentData.techStack.map((tech) => (
                                             <div key={tech.name} className="flex items-center gap-2">
@@ -376,7 +376,7 @@ const App: React.FC = () => {
                             <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-16">
                                 {/* Formation */}
                                 <div data-purpose="service-block">
-                                    <h4 className="text-sm font-bold uppercase tracking-[0.2em] text-zinc-500 mb-6 border-b border-zinc-800 pb-2">Formação</h4>
+                                    <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-zinc-500 mb-6 border-b border-zinc-800 pb-2">Formação</h3>
                                     <ul className="space-y-4">
                                         {contentData.formation.map((item) => (
                                             <li key={item.title}>
@@ -388,7 +388,7 @@ const App: React.FC = () => {
                                 </div>
                                 {/* Competencies */}
                                 <div data-purpose="service-block">
-                                    <h4 className="text-sm font-bold uppercase tracking-[0.2em] text-zinc-500 mb-6 border-b border-zinc-800 pb-2">Competências</h4>
+                                    <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-zinc-500 mb-6 border-b border-zinc-800 pb-2">Competências</h3>
                                     <div className="flex flex-wrap gap-2 text-white">
                                         {contentData.competencies.map((comp) => (
                                             <span key={comp} className="border border-zinc-700 px-4 py-2 text-xs font-medium uppercase hover:bg-white hover:text-black transition-colors cursor-default">{comp}</span>
